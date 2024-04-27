@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useRef, useEffect } from 'react';
-import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { Card } from './ui/Card';
+import { Button } from './ui/Button';
 import "./App.css";
-import { Progress } from "@/components/ui/progress"
+import { Progress } from "./ui/Progress"
 import ObjectDetection from './ObjectDetection';
 import { Upload } from 'lucide-react';
 import ndarray from 'ndarray';

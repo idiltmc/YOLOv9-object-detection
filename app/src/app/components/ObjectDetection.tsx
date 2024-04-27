@@ -18,7 +18,7 @@ const ObjectDetection = ({ inputData , canvas, setProgress}) => {
                 };
 
                 //get the model and load as the session
-                const modelPath = `/models/yolo_post_640x640.onnx`;
+                const modelPath = `/model/yolo_post_640x640.onnx`;
                 const loadedSession = await ort.InferenceSession.create(modelPath);
                 setSession(loadedSession);
                 setProgress(33)
