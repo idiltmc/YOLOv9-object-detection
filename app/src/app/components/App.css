@@ -1,0 +1,307 @@
+.app {
+    height: 100vh; /* Make sure the html and body are full height */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox to center the container */
+    align-items: center; /* Center vertically */
+    justify-content: center; 
+    background-color: #424769;
+
+
+  }
+
+  .container {
+    width: 80%; /* Set the width to 80% of the viewport */
+    height: 80vh; /* Set the height to 50% of the viewport */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column; /* This ensures the buttons stack vertically */
+    gap: 50px; /* Adds space between buttons */
+    padding: 20px;
+    position: relative;
+    right: 15%;
+  }
+  
+  .remove-button{
+
+    display: flex;
+    position: relative;
+    top: 15%;
+
+  }
+
+  .button-remove {
+    position: absolute; /* Position the button absolutely to place it at a specific location */
+    top: 10px; /* Position from the top of the container */
+    right: 10px; /* Position from the right of the container */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: style for button background */
+    border: none; /* Optional: removes border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+
+  .app {
+    height: 100vh; /* Make sure the html and body are full height */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox to center the container */
+    align-items: center; /* Center vertically */
+    justify-content: center; 
+    background-color: #424769;
+
+
+  }
+
+  .container {
+    width: 80%; /* Set the width to 80% of the viewport */
+    height: 80vh; /* Set the height to 50% of the viewport */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column; /* This ensures the buttons stack vertically */
+    gap: 50px; /* Adds space between buttons */
+    padding: 20px;
+    position: relative;
+    right: 15%;
+  }
+  
+  .remove-button{
+
+    display: flex;
+    position: relative;
+    top: 15%;
+
+  }
+  
+  .camera-card div {
+    position: relative; /* Container for image and button */
+  }
+  
+  .button-remove {
+    position: absolute; /* Position the button absolutely to place it at a specific location */
+    top: 10px; /* Position from the top of the container */
+    right: 10px; /* Position from the right of the container */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: style for button background */
+    border: none; /* Optional: removes border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+
+  .state-text {
+    position: relative;
+    bottom: 40%;
+    left: 60%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Display ellipsis (...) for overflow text */
+}
+ 
+  .button-card {
+    display: flex;
+    flex-direction: column; /* Aligns buttons vertically */
+    gap: 10px; /* Adds space between buttons */
+  }
+  
+  
+  
+ 
+  .button-card {
+    display: flex;
+    flex-direction: column; /* Aligns buttons vertically */
+    gap: 10px; /* Adds space between buttons */
+  }
+  
+
+  .app {
+    height: 100vh; /* Make sure the html and body are full height */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox to center the container */
+    align-items: center; /* Center vertically */
+    justify-content: center; 
+    background-color: #424769;
+
+
+  }
+
+  .container {
+    width: 80%; /* Set the width to 80% of the viewport */
+    height: 80vh; /* Set the height to 50% of the viewport */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column; /* This ensures the buttons stack vertically */
+    gap: 50px; /* Adds space between buttons */
+    padding: 20px;
+    position: relative;
+    right: 15%;
+  }
+  
+  .remove-button{
+
+    display: flex;
+    position: relative;
+    top: 15%;
+
+  }
+
+  .button-remove {
+    position: absolute; /* Position the button absolutely to place it at a specific location */
+    top: 10px; /* Position from the top of the container */
+    right: 10px; /* Position from the right of the container */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: style for button background */
+    border: none; /* Optional: removes border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+
+  .app {
+    height: 100vh; /* Make sure the html and body are full height */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox to center the container */
+    align-items: center; /* Center vertically */
+    justify-content: center; 
+    background-color: #424769;
+
+
+  }
+
+  .container {
+    width: 80%; /* Set the width to 80% of the viewport */
+    height: 80vh; /* Set the height to 50% of the viewport */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column; /* This ensures the buttons stack vertically */
+    gap: 50px; /* Adds space between buttons */
+    padding: 20px;
+    position: relative;
+    right: 15%;
+  }
+  
+  .remove-button{
+
+    display: flex;
+    position: relative;
+    top: 15%;
+
+  }
+  
+  .camera-card div {
+    position: relative; /* Container for image and button */
+  }
+  
+  .button-remove {
+    position: absolute; /* Position the button absolutely to place it at a specific location */
+    top: 10px; /* Position from the top of the container */
+    right: 10px; /* Position from the right of the container */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: style for button background */
+    border: none; /* Optional: removes border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+
+  .image {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 10px;
+    z-index: 0
+  }
+  
+  .canvas {
+    position: absolute;
+    top: 0;
+    display: block; /* Make sure the canvas takes up the full width */
+    max-width: 100%; 
+    left: 0;
+    height: 100%; /* Match the height of the image */
+    pointer-events: none; /* Allows clicks to pass through the canvas to the image */
+    z-index: 1;
+  }
+
+  .state-text {
+    position: relative;
+    bottom: 40%;
+    left: 60%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Display ellipsis (...) for overflow text */
+}
+  .camera-card {
+    width: 600px; /* Set a fixed width */
+    height: 600px; /* Set a fixed height to make it square */
+    flex-grow: 0; /* Prevent the card from growing to fit available space */
+    margin-right: 20px; /* Adds spacing between the card and the buttons */
+    position: fixed;
+    left: 210px;
+    overflow: hidden; /* Ensures the image does not overflow the card */
+  }
+  
+ 
+  .button-card {
+    display: flex;
+    flex-direction: column; /* Aligns buttons vertically */
+    gap: 10px; /* Adds space between buttons */
+  }
+  
+  
+  
+ 
+  .button-card {
+    display: flex;
+    flex-direction: column; /* Aligns buttons vertically */
+    gap: 10px; /* Adds space between buttons */
+  }
+  
+  
+  
